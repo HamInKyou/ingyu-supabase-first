@@ -11,3 +11,9 @@ main {
     align-items: center;
     font-size: 10vh;
 }
+
+#qrcode {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+}

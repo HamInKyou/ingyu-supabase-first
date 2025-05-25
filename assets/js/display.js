@@ -1,6 +1,8 @@
 const $main = document.querySelector('main')
 const channel = client.channel('test-channel');
 
+new QRCode(document.querySelector("#qrcode"), location.origin);
+
 // on(구독할 기능, 설정객체, callback)
 channel.on(
     'postgres_changes',
